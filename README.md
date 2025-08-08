@@ -1,39 +1,43 @@
-# Welcome to your Expo app 👋
+# GenJournals
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**GenJournals** is a smart journaling application that helps users create, organize, and manage their entries efficiently.  
+It is designed for a wide range of use cases — from personal diaries and study notes to research logs and idea tracking — all in a clean, user-friendly interface.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
+- Create and edit journal entries with ease
+- Organize entries with categories or tags
+- Search and retrieve past entries quickly
+- Store notes in a structured and accessible format
+- Cross-platform support (mobile & web via Expo)
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Getting Started
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### Install Dependencies
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Start the app
+npx expo start
+
+In the output, you'll find options to open the app in:
+
+Development build
+
+Android emulator
+
+iOS simulator
+
+Expo Go – a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the app/ directory.
+
+##  Get a Fresh Project
+npm run reset-project
 
 ## Learn more
 
@@ -48,3 +52,4 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project uses file-based routing.
