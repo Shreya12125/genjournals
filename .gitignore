@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Expo build artifacts
+.expo/
+dist/
+web-build/
+
+# Debug logs
+npm-debug.*
+
+# Mobile signing keys & provisioning profiles
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Patch/merge conflict backups
+*.orig.*
+
+# macOS system files
+.DS_Store
+
+# Expo CLI generated files
+# @generated expo-cli sync
+expo-env.d.ts
+# @end expo-cli
